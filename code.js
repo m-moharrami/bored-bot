@@ -4,5 +4,7 @@ document.getElementById('get-activity').addEventListener("click", function() {
         .then(data => {
             // console.log(data);
             document.getElementById('activity').textContent = data.activity;
+            document.getElementById('title').textContent = "🤗 Happy Bot 🤗"
+            document.body.classList.add("happy-mode");
         })    
-})
+});

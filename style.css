@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to top, #2C3E50, #BDC3C7);
+    background: linear-gradient(to bottom, #3D7EAA, #FFE47A);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -14,11 +14,15 @@ button {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: #DE966F;
-    border: 1px solid #DE9645;
+    background-color: #82c4eb;
+    border: 1px solid #63badd;
     cursor: pointer;
 }
 
 body, button {
     font-family: 'Supermercado One', cursive;
+}
+
+.happy-mode {
+    background: linear-gradient(to bottom, #2BC0E4, #EAECC6);
 }
