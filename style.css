@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(to top, #2C3E50, #BDC3C7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Supermercado One', cursive;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid darkred;
+    cursor: pointer;
+}
