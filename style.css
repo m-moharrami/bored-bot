@@ -6,7 +6,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Supermercado One', cursive;
 }
 
 button {
@@ -18,4 +17,8 @@ button {
     background-color: #DE966F;
     border: 1px solid #DE9645;
     cursor: pointer;
+}
+
+body, button {
+    font-family: 'Supermercado One', cursive;
 }
